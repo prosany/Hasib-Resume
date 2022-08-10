@@ -115,4 +115,54 @@ body {
 .right-side {
   background: #fff;
   width: calc(100% - 280px);
+  padding: 30px;
+}
+
+.educations {
+  text-align: left;
+}
+
+.educations > h2 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #9bcb5f;
+  margin-bottom: 10px;
+  color: #6da12c;
+}
+
+.education-item {
+  margin: 10px 0;
+}
+
+.education-item > h3,
+p {
+  color: #393939;
+}
+
+.skill-item {
+  margin: 5px 0;
+}
+
+.skill-level {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-level > div {
+  width: 100%;
+  background: #dfffb6;
+  height: 8px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.skill-level > div > span {
+  position: absolute;
+  background: #9bcb5f;
+  height: 8px;
+  border-radius: 5px;
+}
+
+.skill-level > p {
+  padding: 0 10px;
 }
